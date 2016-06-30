@@ -10,9 +10,8 @@ from cloudmesh_client.cloud.image import Image
 from cloudmesh_client.cloud.flavor import Flavor
 from cloudmesh_client.cloud.attributes import Attributes
 from cloudmesh_client.cloud.vm import Vm
-
 from cloudmesh_client.cloud.launcher import Launcher
-from cloudmesh_client.util import banner, path_expand
+from cloudmesh_client.common.util import banner, path_expand
 
 from ..views import dict_table
 
