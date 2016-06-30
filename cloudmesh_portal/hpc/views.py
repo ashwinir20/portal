@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import json
 
 from cloudmesh_client.common.ConfigDict import ConfigDict
-from cloudmesh_client.util import path_expand
+from cloudmesh_client.common.util import path_expand
 from django.shortcuts import render
 
 from cloudmesh_client.cloud.hpc.BatchProvider import BatchProvider
